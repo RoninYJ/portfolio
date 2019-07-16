@@ -4,15 +4,15 @@
     <link rel = "stylesheet" type="text/css" href="food2.css">
   </head>
   <body background="https://img.freepik.com/free-photo/delicious-mexican-food-arrange-frame-wooden-table_23-2148042482.jpg?size=626&ext=jpg">
-      <h1> List one ingredient in each box</h1>
-      <form action = "">
+      <h1> choose one ingredient from each box</h1>
+      <!--<form action = ""> -->
             <!-- <p> 
             <a href = "meat.html">options for meat</a>:<input type="text" placeholder="meat you want">
             <a href = "cheese.html">options for cheese</a>:<input type="text" placeholder="cheese you want">
             <a href = "vegetables.html">options for vegetables</a>:<input type="text" placeholder="vegetables you want"> 
             </p> -->
-            <select name = "meat">
-              <option value = "Select a meat">Select a meat</option>
+            <select id="dropbox1" name = "meat">
+              <option value = "choices for meat">Select a meat</option>
               <option value = "anchovies">Anchovies</option>
               <option value = "beef">Beef</option>
               <option value = "bacon">Bacon</option>
@@ -40,8 +40,8 @@
               <option value = "turkey">Turkey</option>
           </select>
 
-            <select name = "cheese">
-              <option value = "select a cheese">Select a cheese</option>
+          <select id="dropbox2" name = "cheese">
+              <option value = "choices for cheese">Select a cheese</option>
               <option value = "blue">Blue</option>
               <option value = "brie">Brie</option>
               <option value = "cheddar">Cheddar</option> 
@@ -55,7 +55,8 @@
               <option value = "provolone">Provolone</option>
             </select>
 
-            <select name = "vegetables">
+            <select id="dropbox3" name = "vegetables">
+                <option value = "choices for vegetables">Select a vegetable</option>
                 <option value = "arugula">Arugula</option>
                 <option value = "artichoke">Artichoke</option>
                 <option value = "asperigus">Asperigus</option>
@@ -94,14 +95,21 @@
                 <option value = "tomatoes">Tomatoes</option>
                 <option value = "tunip">Turnip</option>
                 <option value = "zucchini">Zucchini</option>
-                <input type="submit" value="Submit">
               </select>
-            </form>
+                <h3>lnnlklkm</h3>
+                
+
+                <input id="myInput" value="Some text..">
+                <button id="myBtn" onclick="recipies()">Button</button>
+
+              
+              
+            <!--</form> -->
 
 
               
             
-
+    <script type="text/javascript" src="ingredients.js"></script> 
   </body>
 
 </html>
