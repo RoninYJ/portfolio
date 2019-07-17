@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #f1f1f1;
+    
 }
 
 .container{
@@ -27,6 +27,9 @@ text-align: center;
 }
 
 .btn1{
-    background-image: linear-gradient(to left,#FDA7DF,#9980FA,#FDA7DF)
+    background-image: linear-gradient(to left,#e67e22,#c0392b,#e67e22)
 }
 
+a {
+    margin-left: 70px
+}

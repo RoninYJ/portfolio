@@ -9,12 +9,18 @@ body {
 h1 {
     color: white;
     position: relative;
-  left: 490px;
+  left: 470px;
   top: 150px;
 }
 
-form {
+select {
 position: relative;
 left: 530px;
 top: 175px;
 }
+
+button {
+    position: relative;
+    left: 530px;
+    top: 175px;
+    }
