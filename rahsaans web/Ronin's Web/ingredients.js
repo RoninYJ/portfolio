@@ -6,7 +6,7 @@ input.addEventListener("keyup", function(event) {
   }
 });
 */
-function recipies() {
+document.querySelector('#Search').onclick = function () {
     //alert('here are the recipies we found for you');
     // grabs dropdown menu 1
     var drop1 = document.getElementById("dropbox1");
@@ -18,7 +18,8 @@ function recipies() {
     var drop3 = document.getElementById("dropbox3");
     var select3 = drop3.options[drop3.selectedIndex].text;
     console.log(select3);
-
+    var link = document.querySelector ("#search-link");
+    link.setAttribute ("href", "https://www.google.com/search?q="+select1+"+"+select2+"+"+select3) 
     
 }
 // function recipies() {

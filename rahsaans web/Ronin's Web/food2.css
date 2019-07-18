@@ -1,5 +1,5 @@
 body {
-    background: url(foodbackground3.jpg) no-repeat center center fixed; 
+    background: url(background4.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,18 +9,18 @@ body {
 h1 {
     color: white;
     position: relative;
-  left: 470px;
+  left: 255px;
   top: 150px;
 }
 
 select {
 position: relative;
-left: 530px;
+left: 330px;
 top: 175px;
 }
 
 button {
     position: relative;
-    left: 530px;
+    left: 330px;
     top: 175px;
     }
