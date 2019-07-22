@@ -20,6 +20,9 @@ document.querySelector('#Search').onclick = function () {
     console.log(select3);
     var link = document.querySelector ("#search-link");
     link.setAttribute ("href", "https://www.google.com/search?q="+select1+"+"+select2+"+"+select3) 
+    //var iframe = document.getElementById("iframething");
+    //iframe.setAttribute ("src", "https://www.google.com/search?q="+select1+"+"+select2+"+"+select3) 
+   
     
 }
 // function recipies() {
