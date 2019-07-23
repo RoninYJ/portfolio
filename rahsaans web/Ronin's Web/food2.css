@@ -9,18 +9,20 @@ body {
 h1 {
     color: white;
     position: relative;
-  left: 255px;
+  left: 170px;
   top: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
 }
 
 select {
 position: relative;
-left: 330px;
+left: 230px;
 top: 175px;
 }
 
 button {
     position: relative;
-    left: 330px;
+    left: 290px;
     top: 175px;
     }

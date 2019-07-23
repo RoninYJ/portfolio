@@ -6,8 +6,8 @@ body{
 
 .container{
     position: absolute;
-    left: 400px;
-    top: 50%;
+    left: 650px;
+    top: 10%;
     transform: translate(-50%,-50%);
 text-align: center;
 }
@@ -17,7 +17,8 @@ text-align: center;
     margin: 0px;
     padding: 24px;
     width: 220px;
-    font-family: "monsterrat",sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
     text-transform: uppercase;
     border-radius: 6px;
     cursor: pointer;
@@ -31,5 +32,12 @@ text-align: center;
 }
 
 a {
-    margin-left: 70px
+    margin-left: 10px;
 }
+
+    iframe {
+        margin-left: 700px;
+        margin-top: 200px;
+    }
+
+    
