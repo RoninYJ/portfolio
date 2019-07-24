@@ -29,9 +29,9 @@ document.querySelector('#Search').onclick = function () {
     
 }
 
-function goBack() {
-  window.history.back();
-}
+// function goBack() {
+//   window.history.back();
+// }
 // function recipies() {
 //     //alert('here are the recipies we found for you');
 //     // grabs dropdown menu 1
