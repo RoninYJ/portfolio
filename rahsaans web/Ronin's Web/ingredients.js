@@ -31,7 +31,7 @@ document.querySelector('#Search').onclick = function () {
 
 function goBack() {
   window.history.back();
-
+}
 // function recipies() {
 //     //alert('here are the recipies we found for you');
 //     // grabs dropdown menu 1
@@ -45,4 +45,4 @@ function goBack() {
 //     var drop3 = document.getElementById("dropbox3");
 //     var select3 = drop3.options[drop3.selectedIndex].text;
 //     console.log(select3);
-// }
+
