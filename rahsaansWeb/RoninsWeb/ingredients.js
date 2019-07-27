@@ -18,11 +18,14 @@ document.querySelector('#Search').onclick = function () {
     var drop3 = document.getElementById("dropbox3");
     var select3 = drop3.options[drop3.selectedIndex].text;
     console.log(select3);
+    // var drop4 = document.getElementById("dropbox4");
+    // var select4 = drop4.options[drop4.selectedIndex].text;
+    // console.log(select4);
     // var link = document.querySelector ("#search-link");
     // link.setAttribute ("href", "https://www.bing.com/search?q="+select1+"+"+select2+"+"+select3) 
     if (select1 != "Select a meat" && select2 != "Select a cheese" && select3!= "Select a vegetable") {
         var iframe = document.getElementById("iframething");
-        iframe.setAttribute ("src", "https://www.bing.com/search?q="+select1+"+"+select2+"+"+select3) 
+        iframe.setAttribute ("src", "https://www.bing.com/search?q="+select1+"+"+select2+"+"+select3+"+") 
     }
 
    
